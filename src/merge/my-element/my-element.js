@@ -8,12 +8,14 @@ import useCustomElement from 'use-custom-element';
 
 function MyElement(props) {
   const [customElementProps, ref] = useCustomElement(props);
+  console.log("props",props.children)
+  console.log("customElementProps",customElementProps)
   // Return the web component
   return <my-element {...customElementProps} ref={ref}><p>This is child content</p></my-element>;
 }
 
 MyElement.propTypes = {
-   label: PropTypes.string
+   children: PropTypes.node
 }
 
 export default MyElement;
