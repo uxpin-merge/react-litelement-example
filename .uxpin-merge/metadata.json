@@ -1,0 +1,46 @@
+{
+  "categorizedComponents": [
+    {
+      "components": [
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "src/merge/my-element",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/merge/my-element/my-element.js"
+            },
+            "presets": [
+              {
+                "path": "src/merge/my-element/presets/0-default.jsx"
+              }
+            ]
+          },
+          "name": "MyElement",
+          "presets": [],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "label",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            }
+          ],
+          "wrappers": []
+        }
+      ],
+      "name": "General"
+    }
+  ],
+  "name": "Wrapped LitElement Example",
+  "vcs": {
+    "branchName": "react-uxpin",
+    "commitHash": "0d84a271f552fdea30b8dd89c1a4e6db351afc68"
+  }
+}
